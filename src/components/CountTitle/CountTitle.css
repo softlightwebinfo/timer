@@ -1,0 +1,18 @@
+.CountTitle {
+    margin-bottom: 15px;
+}
+
+.CountTitle > span {
+    font-weight: bold;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.CountTitle a {
+    text-decoration: none;
+    display: inline-flex;
+    margin-right: 5px;
+}

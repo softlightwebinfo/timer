@@ -1,0 +1,37 @@
+.CountHeader {
+    border: 2px dashed gainsboro;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.CountHeader > .Flex .Col:first-child > div {
+    border: 2px dashed gainsboro;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.CountHeader__totals {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.CountHeader__buttons {
+    display: flex;
+    margin: -5px;
+    padding-top: 10px;
+}
+
+.CountHeader__buttons button {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.CountHeader__buttons button:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+}

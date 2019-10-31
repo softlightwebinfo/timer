@@ -1,0 +1,35 @@
+.FormCreate {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.FormCreate h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.FormCreate input {
+    border-radius: 12px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    outline: 0;
+    box-shadow: 0 2px 4px -4px black;
+}
+
+.FormCreate button {
+    box-shadow: 0 1px 4px -1px black;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 2px;
+    outline: 0;
+}
+
+.FormCreate button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}

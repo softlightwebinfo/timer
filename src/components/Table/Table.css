@@ -1,0 +1,10 @@
+.Table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Table td,
+.Table th {
+    border: 2px solid gainsboro;
+    padding: 10px;
+}

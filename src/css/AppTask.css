@@ -1,0 +1,9 @@
+.App__task {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App__task > * {
+    flex: calc((100% / 4) - 10px);
+    flex-grow: 0;
+}

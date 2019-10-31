@@ -1,0 +1,23 @@
+.Header {
+    width: 100%;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    min-height: 40px;
+    padding: 5px;
+    display: block;
+}
+
+.Header a {
+    background-color: cornflowerblue;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    display: inline-flex;
+    box-shadow: 0 1px 4px -1px black;
+}
+
+.Header a:hover {
+    opacity: .9;
+}

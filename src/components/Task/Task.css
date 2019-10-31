@@ -1,0 +1,17 @@
+.Task {
+    background-color: gainsboro;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    min-height: 80px;
+    box-shadow: 0 1px 4px -1px black;
+}
+
+.Task:hover {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
