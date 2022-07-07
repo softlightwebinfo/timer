@@ -46,7 +46,7 @@
     "electron-forge": "^5.2.4",
     "electron-is-dev": "^1.1.0",
     "global": "^4.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "pouchdb": "^7.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
